@@ -1,0 +1,2 @@
+scripts/private/*.ahk
+!scripts/private/example-*.ahk
