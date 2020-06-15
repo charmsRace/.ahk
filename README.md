@@ -6,3 +6,7 @@
 - `+` - Shift
 - `!` - Alt
 - `#` - Meta
+
+## To-do
+
+None for now

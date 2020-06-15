@@ -13,8 +13,16 @@ XButton1 & WheelDown::
   }
   Return
 
-; Use back + left click to click middle mouse
-XButton1 & LButton::Send, {MButton}
+; TODO: switch to back or forward + mouse wheel
+; Use back + {left, right}-click to send page-{up, down}
+XButton1 & LButton::Send, {PgUp}
+XButton1 & RButton::Send, {PgDn}
 
-; Let back function normally outside of macros
-XButton1::Send, {XButton1}
+; Use forward + left-click to middle-click
+XButton2 & LButton::Send, {MButton}
+; Use forward + right-click to send enter
+XButton2 & RButton::Send, {Enter}
+
+; Let back & forward function normally outside macros
+XButton1::Send, ${XButton1}
+XButton2::Send, ${XButton2}
