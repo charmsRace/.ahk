@@ -1,22 +1,32 @@
-; Use back + mouse wheel to scroll horizontally
-XButton1 & WheelUp::
+; Lots of mouse-scrolling utilities
+; XButton1 = Back
+; XButton2 = Forward
+
+; MX Vertical top button scan code
+; E0_1F00 (how to use this?)
+
+; Use forward + wheel to scroll horizontally
+XButton2 & WheelUp::
   ControlGetFocus, FocusControl, A
   Loop, % IfExistsElse(HorizontalScrollSpeed, 2) {
     SendMessage, 0x114, 0, 0, % FocusControl, A
   }
   Return
 
-XButton1 & WheelDown::
+XButton2 & WheelDown::
   ControlGetFocus, FocusControl, A
   Loop, % IfExistsElse(HorizontalScrollSpeed, 2) {
     SendMessage, 0x114, 1, 0, % FocusControl, A
   }
   Return
 
-; TODO: switch to back or forward + mouse wheel
-; Use back + {left, right}-click to send page-{up, down}
-XButton1 & LButton::Send, {PgUp}
-XButton1 & RButton::Send, {PgDn}
+; Use back + wheel to scroll page-{up, down}
+XButton1 & WheelUp::Send, {PgUp}
+XButton1 & WheelDown::Send, {PgDn}
+
+; Use back + {left, right}-click to go to {top, bottom}
+XButton1 & LButton::Send, {Home}
+XButton1 & RButton::Send, {End}
 
 ; Use forward + left-click to middle-click
 XButton2 & LButton::Send, {MButton}
@@ -24,5 +34,5 @@ XButton2 & LButton::Send, {MButton}
 XButton2 & RButton::Send, {Enter}
 
 ; Let back & forward function normally outside macros
-XButton1::Send, ${XButton1}
-XButton2::Send, ${XButton2}
+XButton1::Send, {XButton1}
+XButton2::Send, {XButton2}
