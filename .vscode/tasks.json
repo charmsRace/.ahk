@@ -6,7 +6,7 @@
     {
       "label": "Load AutoHotkey scripts",
       "type": "shell",
-      "command": "start scripts/index.ahk",
+      "command": ". run.sh",
       "options": {
         "cwd": "${workspaceRoot}",
       },
