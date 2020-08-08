@@ -21,3 +21,4 @@
   FormatTime, CurrentDateTime, , yyyyMMddHHmm
   Send, % CurrentDateTime
   Return
+
