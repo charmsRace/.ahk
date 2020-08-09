@@ -12,7 +12,9 @@ HorizontalScrollSpeed := 2
 #Include scripts\pick-color.ahk
 #Include scripts\right-side-switch-apps.ahk
 #Include scripts\scrolling.ahk
-#Include scripts\unicode.ahk
+
+; Unicode hotstrings
+#Include scripts\unicode\index.ahk
 
 ; Private scripts (hotstrings for emails, &c.)
 #Include scripts\private\index.example.ahk
