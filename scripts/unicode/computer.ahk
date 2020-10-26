@@ -16,3 +16,4 @@
 
 ; UI Navigation
 :*:@@ham::☰ ; U+2630
+:*:@@kebab::⋮ ; U+22EE
