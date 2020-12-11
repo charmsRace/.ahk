@@ -8,7 +8,7 @@
       "type": "shell",
       "command": ". run.sh",
       "options": {
-        "cwd": "${workspaceRoot}",
+        // "cwd": "${workspaceRoot}",
       },
       "isBackground": false,
       "presentation": {

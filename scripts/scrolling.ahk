@@ -33,19 +33,19 @@ XButton2 & LButton::Send, {MButton}
 ; Use forward + right-click to send enter
 XButton2 & RButton::Send, {Enter}
 
-; Use left-click + wheel to switch apps
-; LButton & WheelUp::ShiftAltTab
-; LButton & WheelDown:: AltTab
+; Use left-click + wheel to manage tabs
+~LButton & WheelUp::Send, ^w
+~LButton & WheelDown::Send, ^t
 
 ; Use right-click + wheel to switch tabs
 RButton & WheelUp::Send, ^+{Tab}
 RButton & WheelDown::Send, ^{Tab}
 
 ; Let mouse buttons function normally outside macros
-XButton1::Send, {XButton1}
-XButton2::Send, {XButton2}
-; LButton::Send, {LButton}
-RButton::Send, {RButton}
+; LButton::LButton ; Unnecessary with `~`
+RButton::RButton
+XButton1::XButton1
+XButton2::XButton2
 
 ; left-alt + wheel for left-alt + up/down
 LAlt & WheelUp::Send, !{Up}
