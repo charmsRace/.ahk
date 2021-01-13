@@ -3,3 +3,4 @@
 ;   - Empty window
 ;   - dot
 ;   - ahk
+;   - other applications...

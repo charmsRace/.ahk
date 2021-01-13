@@ -46,3 +46,7 @@ XButton1::Send, {XButton1}
 XButton2::Send, {XButton2}
 ; LButton::Send, {LButton}
 RButton::Send, {RButton}
+
+; left-alt + wheel for left-alt + up/down
+LAlt & WheelUp::Send, !{Up}
+LAlt & WheelDown::Send, !{Down}
