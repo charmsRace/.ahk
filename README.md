@@ -9,4 +9,8 @@
 
 ## To-do
 
-None for now
+- StS!
+  - *e*-space
+  - **[VOICE]**
+
+- Emails
