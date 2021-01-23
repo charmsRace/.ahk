@@ -16,6 +16,8 @@ JiraTicket := 18101
 #Include scripts/pick-color.ahk
 #Include scripts/right-side-switch-apps.ahk
 #Include scripts/scrolling.ahk
+#Include scripts/search-terms.ahk
+#Include scripts/sts.ahk
 #Include scripts/workspaces.ahk
 
 ; Unicode hotstrings
