@@ -34,8 +34,9 @@ XButton2 & LButton::Send, {MButton}
 XButton2 & RButton::Send, {Enter}
 
 ; Use left-click + wheel to manage tabs
-~LButton & WheelUp::Send, ^w
-~LButton & WheelDown::Send, ^t
+; (blocks dragging)
+; ~LButton & WheelUp::Send, ^w
+; ~LButton & WheelDown::Send, ^t
 
 ; Use right-click + wheel to switch tabs
 RButton & WheelUp::Send, ^+{Tab}
@@ -50,3 +51,8 @@ XButton2::XButton2
 ; left-alt + wheel for left-alt + up/down
 LAlt & WheelUp::Send, !{Up}
 LAlt & WheelDown::Send, !{Down}
+
+; MX Vertical top button + {right, left}-click to {copy, paste}
+; (top button mapped to F10 via Logitech Options)
+F10 & RButton::Send, ^c
+F10 & LButton::Send, ^v

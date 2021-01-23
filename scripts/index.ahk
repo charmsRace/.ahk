@@ -10,11 +10,13 @@ JiraTicket := 18101
 
 ; Scripts
 #Include scripts/amaranthine.ahk
+#Include scripts/code-idioms.ahk
 #Include scripts/insert-date.ahk
+#Include scripts/launch-apps.ahk
 #Include scripts/pick-color.ahk
 #Include scripts/right-side-switch-apps.ahk
 #Include scripts/scrolling.ahk
-#Include scripts/search-terms.ahk
+#Include scripts/workspaces.ahk
 
 ; Unicode hotstrings
 #Include scripts/unicode/index.ahk

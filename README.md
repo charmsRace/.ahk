@@ -9,4 +9,6 @@
 
 ## To-do
 
-None for now
+- Macro for mail client?
+- Make VS Code workspaces less brittle
+- ~~Macros for VS Code workspaces~~
