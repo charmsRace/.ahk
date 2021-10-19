@@ -1,24 +1,23 @@
 ; Insert the current date in sortable format
-:*:]]dd::
+:*?Z:]]dd::
   FormatTime, CurrentDateTime, , yyyyMMdd
   Send, % CurrentDateTime
   Return
 
 ; Insert the above, with dashes (more human-readable)
-:*:]]d-::
+:*?Z:]]d-::
   FormatTime, CurrentDateTime, , yyyy-MM-dd
   Send, % CurrentDateTime
   Return
 
-; Insert the current date in American format
-:*:]]da::
+; Insert the current date in USA format
+:*?Z:]]du::
   FormatTime, CurrentDateTime, , MM/dd/yyyy
   Send, % CurrentDateTime
   Return
 
 ; Insert the current date, with timestamp, in sortable format
-:*:]dt::
+:*?Z:]]dt::
   FormatTime, CurrentDateTime, , yyyyMMddHHmm
   Send, % CurrentDateTime
   Return
-

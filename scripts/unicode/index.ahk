@@ -9,6 +9,7 @@
 #Include scripts/unicode/computer.ahk
 #Include scripts/unicode/greek.ahk
 #Include scripts/unicode/math.ahk
+#Include scripts/unicode/music.ahk
 #Include scripts/unicode/punctuation.ahk
 #Include scripts/unicode/science.ahk
 #Include scripts/unicode/ulven.ahk
