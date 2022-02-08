@@ -1,5 +1,5 @@
 ; Return RGB hex value for color under mouse cursor, e.g. `#FF0000`
-+!c::
++!x::
   MouseGetPos, MouseX, MouseY
   PixelGetColor, CursorColor, MouseX, MouseY, RGB
   HexString := "#" . SubStr(CursorColor, 3, 6)

@@ -9,6 +9,8 @@
 :*:@@tab::⭾ ; U+2B7E
 :*:@@enter::⎆ ; U+2386
 :*:@@return::⏎ ; U+23CE
+:*:@@lclick::◧ ; U+25E7
+:*:@@rclick::◨ ; U+25E8
 
 :*:@@home::⌂ ; U+2302
 :*:@@undo::⎌ ; U+238C
