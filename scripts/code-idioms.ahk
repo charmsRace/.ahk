@@ -4,3 +4,7 @@
 ; Bash idiom for cd-ing into cloned directory
 ; (incompatible with `alias`)
 :*:;;cg::cd {!}{$}:t:r
+
+; Regex for replacing tree structure with whitespace
+; (replace with '  ')
+:*:;;tree::[(?:└─)(?:├─)(?:│ )(?:─ )]
