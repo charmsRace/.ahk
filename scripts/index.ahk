@@ -9,6 +9,7 @@ HorizontalScrollSpeed := 2
 ; Scripts
 #Include scripts/amaranthine.ahk
 #Include scripts/code-idioms.ahk
+#Include scripts/home-row-arrow-keys.ahk
 #Include scripts/insert-date.ahk
 #Include scripts/launch-apps.ahk
 ; #Include scripts/right-side-switch-apps.ahk

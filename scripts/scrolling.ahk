@@ -5,7 +5,7 @@
 ; MX Vertical top button scan code
 ; E0_1F00 (how to use this?)
 
-; Use forward + wheel to scroll horizontally
+; Hold forward + wheel to scroll horizontally
 XButton2 & WheelUp::
   ControlGetFocus, FocusControl, A
   Loop, % IfExistsElse(HorizontalScrollSpeed, 2) {
@@ -20,25 +20,25 @@ XButton2 & WheelDown::
   }
   Return
 
-; Use back + wheel to scroll page-{up, down}
+; Hold back + wheel to scroll page-{up, down}
 XButton1 & WheelUp::Send, {PgUp}
 XButton1 & WheelDown::Send, {PgDn}
 
-; Use back + {left, right}-click to go to {top, bottom}
+; Hold back + {left, right}-click to go to {top, bottom}
 XButton1 & LButton::Send, {Home}
 XButton1 & RButton::Send, {End}
 
-; Use forward + left-click to middle-click
+; Hold forward + left-click to middle-click
 XButton2 & LButton::Send, {MButton}
-; Use forward + right-click to send enter
+; Hold forward + right-click to send enter
 XButton2 & RButton::Send, {Enter}
 
-; Use left-click + wheel to manage tabs
+; Hold left-click + wheel to manage tabs
 ; (blocks dragging)
 ; ~LButton & WheelUp::Send, ^w
 ; ~LButton & WheelDown::Send, ^t
 
-; Use right-click + wheel to switch tabs
+; Hold right-click + wheel to switch tabs (in e.g. Chrome)
 RButton & WheelUp::Send, ^+{Tab}
 RButton & WheelDown::Send, ^{Tab}
 

@@ -60,6 +60,10 @@
 :*:@@!pentagram::⛧ ; U+26E7
 :*:@@gear::⛭ ; U+26ED
 
+; Spiritual / Metaphysical
+:*:@@qi::氣气 ; U+6C14
+; :*:@@qi::氣
+
 ; Other
 ; ❦ (U+2766) - FLORAL HEART
 ; ❧ (U+2767) - ROTATED FLORAL HEART BULLET

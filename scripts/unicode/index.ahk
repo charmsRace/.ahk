@@ -4,6 +4,7 @@
 #Include scripts/unicode/common.ahk
 
 #Include scripts/unicode/alchemical.ahk
+#Include scripts/unicode/astrological.ahk
 #Include scripts/unicode/astronomical.ahk
 #Include scripts/unicode/box-drawing.ahk
 #Include scripts/unicode/computer.ahk
