@@ -22,9 +22,15 @@
   Send, % CurrentDateTime
   Return
 
-
 ; Insert the current date, with timestamp, in sortable format
 :*?Z:]]d[::
   FormatTime, CurrentDateTime, , [yyyyMMddHHmm]
+  Send, % CurrentDateTime
+  Return
+
+
+; Insert the current date, with timestamp, in sortable format
+:*?Z:]]dh::
+  FormatTime, CurrentDateTime, , - yyyy-MM-dd
   Send, % CurrentDateTime
   Return

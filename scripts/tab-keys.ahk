@@ -3,13 +3,16 @@
 Tab & F1::Return ; Necessary?
 *Tab::Send {Blind}{Tab} ; Send it explicitly when no other key is pressed
 
-#If GetKeyState("Tab", "p") ; Autohotkey_L directive for enabling following mappings when key is physically down
+; Enable mappings when the key is physically down
+#If GetKeyState("Tab", "p")
+
+Enter::Delete
 
 ; WASD style
-j::Left
-l::Right
 i::Up
+j::Left
 k::Down
+l::Right
 
 ; Vim style
 ; h::Left

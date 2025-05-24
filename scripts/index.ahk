@@ -6,14 +6,17 @@ HorizontalScrollSpeed := 2
 ; Actions
 #Include scripts/actions/index.ahk
 
+; Code snippets
+#Include scripts/code-snippets/index.ahk
+
 ; Scripts
 #Include scripts/amaranthine.ahk
 #Include scripts/code-idioms.ahk
-#Include scripts/home-row-arrow-keys.ahk
 #Include scripts/insert-date.ahk
 #Include scripts/launch-apps.ahk
 ; #Include scripts/right-side-switch-apps.ahk
 #Include scripts/scrolling.ahk
+#Include scripts/tab-keys.ahk
 ; #Include scripts/workspaces.ahk
 
 ; Unicode hotstrings
