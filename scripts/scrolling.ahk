@@ -38,12 +38,19 @@ XButton2 & RButton::Send, {Enter}
 ; ~LButton & WheelUp::Send, ^w
 ; ~LButton & WheelDown::Send, ^t
 
-; Hold right-click + wheel to switch tabs (in e.g. Chrome)
+; Hold right-click + wheel to switch tabs
 RButton & WheelUp::Send, ^+{Tab}
 RButton & WheelDown::Send, ^{Tab}
 
-; Let mouse buttons function normally outside macros
-; LButton::LButton ; Unnecessary with `~`
+; Hold left-click + wheel to move tabs
+~LButton & WheelUp::Send, ^+{PgUp}
+~LButton & WheelDown::Send, ^+{PgDn}
+
+; Let mouse buttons function normally outside macros.
+; Unnecessary with `~` hotkey prefix above,
+; but then click is sent immediately.
+; We want this for left-click.
+; LButton::LButton
 RButton::RButton
 XButton1::XButton1
 XButton2::XButton2
