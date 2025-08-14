@@ -46,10 +46,10 @@ RButton & WheelDown::Send, ^{Tab}
 ~LButton & WheelUp::Send, ^+{PgUp}
 ~LButton & WheelDown::Send, ^+{PgDn}
 
-;; Let mouse buttons function normally outside macros.
-;; Unnecessary with `~` hotkey prefix above,
-;; but then click is sent immediately.
-;; We want this for left-click.
+; Let mouse buttons function normally outside macros.
+; Unnecessary with `~` hotkey prefix above,
+; but then click is sent immediately.
+; We want this for left-click.
 ; LButton::LButton
 RButton::RButton
 XButton1::XButton1
