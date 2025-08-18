@@ -26,5 +26,6 @@ HorizontalScrollSpeed := 2
 #Include scripts/utils/index.ahk
 
 ; Private scripts (hotstrings for emails, &c.)
+; TODO: if exists?
 ; #Include scripts/private/index.example.ahk
-; #Include scripts/private/index.ahk
+#Include scripts/private/index.ahk

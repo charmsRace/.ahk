@@ -24,7 +24,7 @@ XButton2 & WheelDown::
 XButton1 & WheelUp::Send, {PgUp}
 XButton1 & WheelDown::Send, {PgDn}
 
-; Hold back + {left, right}-click to go to {top, bottom}
+; Hold back + {left, right}-click to go {Home, End}
 XButton1 & LButton::Send, {Home}
 XButton1 & RButton::Send, {End}
 
@@ -33,18 +33,19 @@ XButton2 & LButton::Send, {MButton}
 ; Hold forward + right-click to send enter
 XButton2 & RButton::Send, {Enter}
 
+;;; <blocks dragging>
 ; Hold left-click + wheel to manage tabs
-; (blocks dragging)
 ; ~LButton & WheelUp::Send, ^w
 ; ~LButton & WheelDown::Send, ^t
+
+;;; <blocks dragging>
+; Hold left-click + wheel to move tabs
+; ~LButton & WheelUp::Send, ^+{PgUp}
+; ~LButton & WheelDown::Send, ^+{PgDn}
 
 ; Hold right-click + wheel to switch tabs
 RButton & WheelUp::Send, ^+{Tab}
 RButton & WheelDown::Send, ^{Tab}
-
-; Hold left-click + wheel to move tabs
-~LButton & WheelUp::Send, ^+{PgUp}
-~LButton & WheelDown::Send, ^+{PgDn}
 
 ; Let mouse buttons function normally outside macros.
 ; Unnecessary with `~` hotkey prefix above,
