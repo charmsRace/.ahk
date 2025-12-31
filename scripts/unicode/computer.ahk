@@ -1,5 +1,5 @@
 ﻿; Computer/key symbols
-:*:@@keyboard::⌨ ; U+2328
+:*:@@kbd::⌨ ; U+2328
 :*:@@ctrl::⎈ ; U+2388
 :*:@@shift::⇧ ; U+21E7
 :*:@@alt::⎇ ; U+2387

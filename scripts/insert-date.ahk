@@ -3,6 +3,7 @@
 ;
 ; ]]d d :: 19700101
 ; ]]d - :: 1970-01-01
+; ]]d . :: 1970.01.01
 ; ]]d [ :: [1970-01-01]
 ; ]]t = :: 197001010000
 ; ]]t - :: 1970-01-01-0000
@@ -15,6 +16,11 @@
 
 :*?Z:]]d-::
   FormatTime, CurrentDateTime, , yyyy-MM-dd
+  Send, % CurrentDateTime
+  Return
+
+:*?Z:]]d.::
+  FormatTime, CurrentDateTime, , yyyy.MM.dd
   Send, % CurrentDateTime
   Return
 

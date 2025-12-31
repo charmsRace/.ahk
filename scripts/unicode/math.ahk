@@ -1,6 +1,9 @@
-; Mathematical symbols
+﻿; Mathematical symbols
 ; Many from block U+2200 ("Mathematical Operators")
 ; https://compart.com/en/unicode/block/U+2200
+
+:*:@@meet::⋀ ; U+22C0 N-Ary Logical And
+:*:@@join::⋁ ; U+22C1 N-Ary Logical Or
 
 ; Circled numerals
 :*:@@(0)::🄋 ; U+1F10B
