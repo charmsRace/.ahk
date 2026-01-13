@@ -6,39 +6,83 @@ Tab & F1::Return ; Necessary?
 ; Enable mappings when the key is physically down
 #If GetKeyState("Tab", "p")
 
+; '/@@enter @@newline ⏎
+'::Backspace
 Enter::Delete
 
-; Vim-like
-; `hjkl` :: ←↓↑→
+; vim-like
+; ←↓↑→
+; hjkl
 
 h::Left
 j::Down
 k::Up
 l::Right
 
+; y/u <-> home/end
+; i/o <-> pgup/pgdn
 y::Home
-u::PgDn
+u::End
 i::PgUp
-o::End
+o::PgDn
 
+; q/w <-> ⌫/⌦
 q::Backspace
 w::Delete
 
-a:::
-s::;
-z::,
-x::.
-; maybe even more?
+; dubious
+; a:::
+; s::;
+; z::,
+; x::.
+; maybe delimiters?
 
+a::,
+s::.
+
+; zxc
+; ===
+; ([{
+z::Send, (
+x::Send, [
+c::Send, {{}
+v::Send, '
+
+; vim-like, southpaw
+; ←↓↑→
+; 1234
 1::Left
 2::Down
 3::Up
 4::Right
 
+; e/r <-> home/end
+; d/f <-> pgup/pgdn
 e::Home
-d::End
-r::PgUp
+r::End
+d::PgUp
 f::PgDn
+
+; experimental
+; -- and starting to need an index / microapp
+
+; qwertyuiop
+; asdfghjkl
+; zxcvbnm
+
+; Enter
+; 1234
+;
+;
+;
+
+
+; nm,.
+; 1234
+*n::Send, {Blind}{1}
+*m::Send, {Blind}{2}
+*,::Send, {Blind}{3}
+*.::Send, {Blind}{4}
 
 ; F12 even?
 

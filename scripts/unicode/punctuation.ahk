@@ -22,11 +22,14 @@
 :*:@@[[::⟦ ; U+27E6
 :*:@@]]::⟧ ; U+27E7
 
-:*:@@[-::⁅ ; U+2045
-:*:@@]-::⁆ ; U+2046
+:*:@@[-::⁅ ; U+2045 Left Square Bracket with Quill
+:*:@@]-::⁆ ; U+2046 Right Square Bracket with Quill
 
 :*:@@[_::⸤ ; U+2E24
 :*:@@]_::⸥ ; U+2E25
 
 :*:@@(S::⟅ ; U+27C5
 :*:@@)S::⟆ ; U+27C6
+
+; :*:@@a::〈 ; U+2329 Left-Pointing Angle Bracket
+; :*:@@a::〉 ; U+232A Right-Pointing Angle Bracket

@@ -7,8 +7,8 @@
 :*:@@atom::⚛ ; U+269B
 :*:@@benzene::⌬ ; U+232C
 
-:*:@@symmetry::⌯ ; U+232F
-:*:@@hysteresis::⎎ ; U+238E
-:*:@@ac::⏦ ; U+23E6
-:*:@@dc::⎓ ; U+2393
-:*:@@ground::⏚ ; U+23DA
+; :*:@@symmetry::⌯ ; U+232F
+; :*:@@hysteresis::⎎ ; U+238E
+; :*:@@ac::⏦ ; U+23E6
+; :*:@@dc::⎓ ; U+2393
+; :*:@@ground::⏚ ; U+23DA

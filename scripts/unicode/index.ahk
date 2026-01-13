@@ -14,6 +14,7 @@
 #Include scripts/unicode/punctuation.ahk
 #Include scripts/unicode/science.ahk
 #Include scripts/unicode/ulven.ahk
+#Include scripts/unicode/yaograms.ahk
 
 ; TODO: Sort these
 #Include scripts/unicode/_unsorted.ahk
