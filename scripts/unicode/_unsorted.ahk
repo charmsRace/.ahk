@@ -4,7 +4,6 @@
 ; ✎ ; U+270E - Lower Right Pencil
 ; ✐ ; U+2710 - Upper Right Pencil
 ; ✕ ; U+2715 - Multiplication X
-; ✗ ; U+2717 - Ballot X
 ; ✝ ; U+271D - Latin Cross
 ; ✪ ; U+272A - Circled White Star
 ; ✵ ; U+2735 - Eight Pointed Pinwheel Star

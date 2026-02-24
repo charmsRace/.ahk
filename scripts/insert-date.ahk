@@ -11,47 +11,47 @@
 
 :*?Z:]]dd::
   FormatTime, CurrentDateTime, , yyyyMMdd
-  Send, % CurrentDateTime
+  SendInput, % CurrentDateTime
   Return
 
 :*?Z:]]d-::
   FormatTime, CurrentDateTime, , yyyy-MM-dd
-  Send, % CurrentDateTime
+  SendInput, % CurrentDateTime
   Return
 
 :*?Z:]]d.::
   FormatTime, CurrentDateTime, , yyyy.MM.dd
-  Send, % CurrentDateTime
+  SendInput, % CurrentDateTime
   Return
 
 :*?Z:]]d[::
   FormatTime, CurrentDateTime, , [yyyy-MM-dd]
-  Send, % CurrentDateTime
+  SendInput, % CurrentDateTime
   Return
 
 ; USA format
 :*?Z:]]du::
   FormatTime, CurrentDateTime, , MM/dd/yyyy
-  Send, % CurrentDateTime
+  SendInput, % CurrentDateTime
   Return
 
 :*?Z:]]tt::
   FormatTime, CurrentDateTime, , yyyyMMddHHmm
-  Send, % CurrentDateTime
+  SendInput, % CurrentDateTime
   Return
 
 :*?Z:]]t-::
   FormatTime, CurrentDateTime, , yyyy-MM-dd-HHmm
-  Send, % CurrentDateTime
+  SendInput, % CurrentDateTime
   Return
 
 :*?Z:]]t[::
   FormatTime, CurrentDateTime, , [yyyy-MM-dd-HHmm]
-  Send, % CurrentDateTime
+  SendInput, % CurrentDateTime
   Return
 
 ; Insert the current date, with timestamp, in sortable format
 ; :*?Z:]]dh::
 ;   FormatTime, CurrentDateTime, , - yyyy-MM-dd
-;   Send, % CurrentDateTime
+;   SendInput, % CurrentDateTime
 ;   Return
