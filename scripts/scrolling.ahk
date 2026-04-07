@@ -30,8 +30,8 @@ XButton1 & RButton::Send, {End}
 
 ; Hold forward + left-click to middle-click
 XButton2 & LButton::Send, {MButton}
-; Hold forward + right-click to send enter
-XButton2 & RButton::Send, {Enter}
+; Hold forward + right-click to send delete
+XButton2 & RButton::Send, {Delete}
 
 ;;; <blocks dragging>
 ; Hold left-click + wheel to manage tabs
